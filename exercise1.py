@@ -37,6 +37,3 @@ else:
 print("")
 
 print(f"Your name is {nome} {surname}, and you are {num} years old.")
-
-
-# Viva o Sporting
