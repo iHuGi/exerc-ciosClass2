@@ -5,7 +5,7 @@ e sobrenome, e depois imprime essas informações na tela separadas por um espa�
 -> Este exercício contém código que não foi ensinado nas aulas ainda.
 """
 
-# Ask the user for their name
+# Ask the user for their name:
 nome = input("Insert your name: ")
 
 # Check if the input contains any digits, loop each char to check if there are digits in 'nome'
@@ -14,8 +14,7 @@ if any(char.isdigit() for char in nome):
 else:
     print(f"Your name is: {nome}")
 
-
-# Ask the user for their surname
+# Ask the user for their surname:
 surname = input("Insert your surname: ")
 
 # Check if the input contains any digits, loop each char to check if their are digits in 'surname'
@@ -24,8 +23,7 @@ if any(char.isdigit() for char in surname):
 else:
     print(f"Your surname is: {surname}")
 
-
-# Ask the user for their age
+# Ask the user for their age:
 num = input("Please enter your age: ")
 
 # Check if the input can be converted to an integer

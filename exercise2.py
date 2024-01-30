@@ -16,7 +16,7 @@ print("")
 print("VERSION 1")
 print("")
 
-# VERSION 1
+# VERSION 1:
 # Este código usa a funçãpo zip para criar de forma dinâmica um dicionário baseado
 # nas nossas duas listas 'studentes' e 'grades'
 
@@ -77,16 +77,12 @@ print("")
 # Print the final "class_dict" dictionary
 print("Final 'class_dict' dictionary:", class_dict)
 
-
-
 print("")
 print("")
 print("VERSION 2")
 print("")
 
-
-
-# VERSION 2
+# VERSION 2:
 
 # Create lists "students" and "grades"
 studentsv2 = ["Hugo", "Luís", "Pedro"]
@@ -119,7 +115,6 @@ class_dictv2 = {
     "Tânia": 87,
     "André": 89
 }
-
 
 # Print the initial "class_dict" dictionary
 print("Initial 'class_dictv2' dictionary:", class_dictv2)
